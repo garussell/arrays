@@ -19,3 +19,11 @@ booleans.unshift(false)
 #of an element in an array.  For example, using the animals array,
 #animals[1] will retun "cat".  The number start with 0 moving from 
 #left to right.  Or start with -1 moving from right to left.
+
+#The .each method calls the array by iterating over each element 
+#in the array one at a time.  You have to create a block that tells
+#Ruby what to do with it.  For example:
+
+animals.each { |this| puts this }
+
+#The result will be dog, cat, cow, horse on separate lines.
