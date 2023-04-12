@@ -14,3 +14,8 @@ floats.shift
 
 #This will add an element to the beginning of the booleans array.
 booleans.unshift(false)
+
+#Index positions are numbers which identify the exact position
+#of an element in an array.  For example, using the animals array,
+#animals[1] will retun "cat".  The number start with 0 moving from 
+#left to right.  Or start with -1 moving from right to left.
